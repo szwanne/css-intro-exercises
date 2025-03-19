@@ -1,0 +1,20 @@
+.class {
+    background-color: rgb(237, 101, 124);
+    font-family: verdana, "dejavu", sans-serif;
+}
+#ID-1 {
+    color: blue;
+    font-size: 36px;
+}
+
+.class-cooler {
+    background-color: rgb(237, 101, 124);
+    font-family: verdana, "dejavu", sans-serif;
+    font-size: 24px;
+}
+
+#ID-2 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
