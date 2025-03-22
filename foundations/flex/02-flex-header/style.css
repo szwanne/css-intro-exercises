@@ -1,6 +1,12 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  width: 99%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vh;
+  gap: 100px;
 }
 
 .logo {
@@ -9,11 +15,16 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  display: flex;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
 }
 
 a {
@@ -22,4 +33,18 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+.left-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  width: 300px;
+}
+
+.right-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  width: 300px;
 }
