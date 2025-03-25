@@ -29,7 +29,6 @@ input {
 
 .header {
   display: flex;
-  background-color: green;
   gap: 1500px;
 }
 
@@ -40,11 +39,11 @@ input {
 
 a {
   text-decoration: none !important; /* removes the underlines */
+  cursor: pointer;
 }
 
 .left-links {
   display: flex;
-  background-color: red;
   width: 10%;
   justify-content: space-around;
   padding: 10px;
@@ -52,7 +51,6 @@ a {
 
 .right-links {
   display: flex;
-  background-color: yellow;
   width: 10%;
   justify-content: space-around;
   padding: 10px;
@@ -61,12 +59,11 @@ a {
 /* CONTENT SECTION */
 
 .content {
-  background-color: aqua;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 75%;
+  height: 85%;
 }
 
 div.input, div.buttons {
@@ -77,4 +74,21 @@ div.input, div.buttons {
 button {
   width: 150px;
   height: 30px;
+  cursor: pointer;
+}
+
+
+/* FOOTER SECTION */
+
+div.footer {
+  background-color: #eeeeee;
+  display: flex;
+  gap: 1500px;
+  height: auto;
+  align-items: center;
+}
+
+ul.left-links {
+  display: flex;
+  align-items: center;
 }
