@@ -25,35 +25,46 @@ input {
   width: 400px;
 }
 
-/* HEADER SECTION */
+/* SOLUTION */
 
-.header {
+body {
   display: flex;
-  background-color: green;
-  gap: 1500px;
+  flex-direction: column;
 }
 
-.left-links, .right-links {
-  list-style: none; /*removes the bullet points */
+button {
+  padding: 8px 16px;
 }
 
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
 
 a {
-  text-decoration: none !important; /* removes the underlines */
+  color: #666;
+  text-decoration: none;
 }
 
-.left-links {
+.header,
+.footer {
   display: flex;
-  background-color: red;
-  width: 10%;
-  justify-content: space-around;
-  padding: 10px;
+  justify-content: space-between;
+  padding: 16px;
 }
 
-.right-links {
+.footer {
+  background: #eee;
+}
+
+ul {
   display: flex;
-  background-color: yellow;
-  width: 10%;
-  justify-content: space-around;
-  padding: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
 }
